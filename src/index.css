@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, Mulish, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.Mulish {
+  font-family: "Mulish";
+}
+
+.Mulish-Bold {
+  font-family: "Mulish";
+  font-weight: 700;
+}
+
+.Mulish-ExtraBold {
+  font-family: "Mulish";
+  font-weight: 800;
+}
